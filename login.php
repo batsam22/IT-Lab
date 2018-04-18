@@ -15,3 +15,6 @@ while ($r=mysqli_fetch_array($res)){
 	}
 }
 ?>
+<html>
+	lol
+</html>
