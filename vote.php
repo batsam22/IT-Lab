@@ -101,6 +101,10 @@ if (!isset($_SESSION["id"]))
 			margin-left: 30%;
 			margin-right: 30%;
 			}
+			a{
+			color:#ffea00;
+			text-decoration:none;
+			}
 		</style>
 	</head>
 	<body id="bod">

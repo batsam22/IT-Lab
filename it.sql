@@ -27,8 +27,9 @@ CREATE TABLE `candi` (
   `name` varchar(20) DEFAULT NULL,
   `vote` int(2) DEFAULT NULL,
   `section` int(2) DEFAULT NULL,
+  `manifesto` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +38,7 @@ CREATE TABLE `candi` (
 
 LOCK TABLES `candi` WRITE;
 /*!40000 ALTER TABLE `candi` DISABLE KEYS */;
-INSERT INTO `candi` VALUES (1,'Sam',1,3),(2,'Tarun',NULL,3),(3,'Vinay',NULL,3),(4,'Thejus',NULL,3);
+INSERT INTO `candi` VALUES (1,'Sam',1,3,'Untitled 1.odt');
 /*!40000 ALTER TABLE `candi` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-18 12:01:32
+-- Dump completed on 2018-04-19 15:30:05
