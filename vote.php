@@ -82,7 +82,7 @@ if (!isset($_SESSION["id"]))
 					document.getElementById('res').style.backgroundColor= "#0000FF";
 					document.getElementById('res').style.color= "#FFFFFF";
 					document.getElementById('op').style.color= "#000000";
-					document.getElementById('bod').style.backgroundColor= "#FFFF00";			
+					document.getElementById('bod').style.backgroundColor= "rgb(234, 166, 255)";			
 				}
 			}	
 

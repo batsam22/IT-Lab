@@ -1,9 +1,5 @@
 <?php
 
-/*echo "<input type='radio' value='ABC' name='cr'>ABC<br>";
-echo "<input type='radio' value='XYZ' name='cr'>XYZ<br>";
-echo "<input type='radio' value='PQR' name='cr'>PQR<br>";
-*/
 include('con.php');
 $q="select * from candi";
 $r=mysqli_query($db,$q);
